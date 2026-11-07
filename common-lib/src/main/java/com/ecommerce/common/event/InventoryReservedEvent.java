@@ -1,5 +1,4 @@
 package com.ecommerce.common.event;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
