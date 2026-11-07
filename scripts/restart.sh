@@ -25,6 +25,7 @@ mvn clean -q
 echo "🗑️  Removing unused Docker resources..."
 docker system prune -f 2>/dev/null || true
 
+
 echo "✅ Cleanup completed!"
 echo ""
 echo "🚀 Starting fresh..."
