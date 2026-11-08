@@ -1,4 +1,4 @@
-# -------- Build Stage --------
+# -------- Build Stage ---------
 FROM maven:3.9-amazoncorretto-17-alpine AS build
 
 WORKDIR /workspace
@@ -13,7 +13,8 @@ RUN mvn -N -f pom.xml clean install -DskipTests
 RUN mvn -f common-lib/pom.xml clean install -DskipTests
 RUN mvn -f inventory-service/pom.xml clean package -DskipTests
 
-# -------- Runtime Stage --------
+
+# -------- Runtime Stage ---------
 FROM amazoncorretto:17-alpine-jdk
 
 WORKDIR /app
