@@ -43,7 +43,7 @@ USE inventory_db;
 -- TRUNCATE TABLE inventory;
 
 -- Insert inventory for products (schema: id, available_quantity, product_id, reserved_quantity)
-INSERT INTO inventory (product_id, available_quantity, reserved_quantity) VALUES
+INSERT INTO inventory (product_id, available_quantity, reserved_quantity) VALUE
 (1, 100, 0),
 (2, 150, 0),
 (3, 50, 0),
