@@ -15,6 +15,6 @@ WORKDIR /app
 
 COPY --from=build /workspace/auth-service/target/*.jar app.jar
 
-EXPOSE 8085
+EXPOSE 808
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
