@@ -137,7 +137,7 @@ INSERT INTO payments (order_id, user_id, amount, status, transaction_id, message
 (9, 4, 549.99, 'COMPLETED', 'TXN-2026-009', 'Payment successful via PayPal', DATE_SUB(NOW(), INTERVAL 6 DAY), DATE_SUB(NOW(), INTERVAL 6 DAY)),
 (10, 5, 1799.99, 'COMPLETED', 'TXN-2026-010', 'Payment successful', DATE_SUB(NOW(), INTERVAL 8 DAY), DATE_SUB(NOW(), INTERVAL 8 DAY));
 
--- =====================================================
+-- =======================================================
 -- VERIFICATION QUERIES
 -- =====================================================
 
