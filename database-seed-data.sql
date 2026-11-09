@@ -139,7 +139,7 @@ INSERT INTO payments (order_id, user_id, amount, status, transaction_id, message
 
 -- =======================================================
 -- VERIFICATION QUERIES
--- =====================================================
+-- =======================================================
 
 -- Check inserted data counts
 SELECT 'Products' as Table_Name, COUNT(*) as Record_Count FROM product_db.products
