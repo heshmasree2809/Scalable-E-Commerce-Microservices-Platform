@@ -60,5 +60,5 @@ docker-compose.yml
 .env
 .env.local
 *.pem
-*.key
+*.
 
