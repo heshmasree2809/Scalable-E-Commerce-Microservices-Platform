@@ -14,7 +14,7 @@ RUN mvn -f common-lib/pom.xml clean install -DskipTests
 RUN mvn -f product-service/pom.xml clean package -DskipTests
 
 # -------- Runtime Stage --------
-FROM amazoncorretto:27-alpine-jdk
+FROM amazoncorretto:17-alpine-jdk
 
 WORKDIR /app
 
