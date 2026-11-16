@@ -89,7 +89,7 @@
     {
       "name": "Get Order By Id",
       "request": {
-        "method": "GET",
+        "method": "GET"
         "url": "{{baseUrl}}/api/orders/{{orderId}}"
       }
     },
