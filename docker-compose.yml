@@ -17,7 +17,7 @@ services:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
       interval: 10s
       timeout: 5s
-      retries: 5
+      retries: 4
 
   # Zookeeper
   zookeeper:
